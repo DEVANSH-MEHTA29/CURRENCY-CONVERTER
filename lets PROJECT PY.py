@@ -16,7 +16,7 @@ if in_c  in A:
             print( )
             print( )
             
-            print("Invalid!!")
+            print(" Invalid!! ")
             print("Kindly enter only mentioned units keeping in mind CASE SENSITIVITY")
             print("Run the program again!!!")
             
@@ -39,7 +39,7 @@ def currency_converter (value,in_c,out_c):
     print( )
     print("1",in_c,"=","%.4f"%(dict[out_c] / dict[in_c]),out_c," (as of 25 NOV.2022)")
     print()
-    return(print("CONVERTED AMOUNT :  ","%.4f"%((dict[out_c] / dict[in_c]) * value),out_c))
+    return(print(" CONVERTED AMOUNT :  ","%.4f"%((dict[out_c] / dict[in_c]) * value),out_c))
     
 currency_converter(value,in_c,out_c)
 
